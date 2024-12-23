@@ -58,7 +58,7 @@ npm run dev
 Buat file `.env` di dalam folder `server` dan tambahkan konfigurasi berikut:
 ```
 MONGO_URI=your_mongo_db_connection_string
-PORT=5000
+PORT=4000
 TOKEN_KEY=your-secret-key
 ```
 
