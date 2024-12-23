@@ -10,25 +10,25 @@
 Berikut adalah beberapa tampilan dari aplikasi Caloriest Burn Predictions:
 
 1. **Landing Page**
-![Landing Page](https://imaginary-url.com/landing-page.png)
+![Landing Page](./showcase/landing-page.png)
 
 2. **Login Page**
-![Login Page](https://imaginary-url.com/login-page.png)
+![Login Page](./showcase/login-page.png)
 
 3. **Register Page**
-![Register Page](https://imaginary-url.com/register-page.png)
+![Register Page](./showcase/register-page.png)
 
 4. **Home Page**
-![Home Page](https://imaginary-url.com/home-page.png)
+![Home Page](./showcase/home-page.png)
 
 5. **Predict Page**
-![Predict Page](https://imaginary-url.com/predict-page.png)
+![Predict Page](./showcase/predict-page.png)
 
 6. **BMI Check Page**
-![BMI Check Page](https://imaginary-url.com/bmi-check-page.png)
+![BMI Check Page](./showcase/bmi-check-page.png)
 
 7. **Nutrition Guide Page**
-![Nutrition Guide Page](https://imaginary-url.com/nutrition-guide-page.png)
+![Nutrition Guide Page](./showcase/nutrition-guide-page.png)
 
 ---
 
@@ -52,6 +52,16 @@ npm run dev
 
 ### 3. Instalasi Backend Server
 - Backend server dibangun menggunakan **Express.js** dan **MongoDB** untuk database.
+
+#### Mengatur File `.env`
+Buat file `.env` di dalam folder `server` dan tambahkan konfigurasi berikut:
+```
+MONGO_URI=your_mongo_db_connection_string
+PORT=5000
+JWT_SECRET=your_jwt_secret_key
+```
+
+- Setelah konfigurasi selesai, jalankan perintah berikut:
 ```bash
 cd ../server
 npm install
