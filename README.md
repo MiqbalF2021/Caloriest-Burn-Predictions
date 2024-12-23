@@ -10,7 +10,7 @@
 Berikut adalah beberapa tampilan dari aplikasi Caloriest Burn Predictions:
 
 1. **Landing Page**
-![Landing Page](./showcase/landing-page.png)
+![Landing Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921860/localhost_5173_landing_Nest_Hub_Max_iulonc.png)
 
 2. **Login Page**
 ![Login Page](./showcase/login-page.png)
