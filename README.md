@@ -13,22 +13,23 @@ Berikut adalah beberapa tampilan dari aplikasi Caloriest Burn Predictions:
 ![Landing Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921860/localhost_5173_landing_Nest_Hub_Max_iulonc.png)
 
 2. **Login Page**
-![Login Page](./showcase/login-page.png)
+![Login Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921859/localhost_5173_landing_Nest_Hub_Max_1_vgzgsz.png)
 
 3. **Register Page**
-![Register Page](./showcase/register-page.png)
+![Register Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921858/localhost_5173_landing_Nest_Hub_Max_2_nlotyx.png)
 
 4. **Home Page**
-![Home Page](./showcase/home-page.png)
+![Home Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921859/home_sgpc7a.png)
 
 5. **Predict Page**
-![Predict Page](./showcase/predict-page.png)
+![Predict Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921859/localhost_5173_record_Nest_Hub_Max_1_q2k7br.png)
 
 6. **BMI Check Page**
-![BMI Check Page](./showcase/bmi-check-page.png)
+![BMI Check Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921858/localhost_5173_record_Nest_Hub_Max_4_expn7g.png)
 
 7. **Nutrition Guide Page**
-![Nutrition Guide Page](./showcase/nutrition-guide-page.png)
+![Nutrition Guide Page](https://res.cloudinary.com/doypx7azh/image/upload/v1734921858/localhost_5173_record_Nest_Hub_Max_5_n2c55r.png)
+![Nutrition Guide Page dua](https://res.cloudinary.com/doypx7azh/image/upload/v1734921860/localhost_5173_record_Nest_Hub_Max_6_p9acc0.png)
 
 ---
 
@@ -58,7 +59,7 @@ Buat file `.env` di dalam folder `server` dan tambahkan konfigurasi berikut:
 ```
 MONGO_URI=your_mongo_db_connection_string
 PORT=5000
-JWT_SECRET=your_jwt_secret_key
+TOKEN_KEY=your-secret-key
 ```
 
 - Setelah konfigurasi selesai, jalankan perintah berikut:
@@ -73,7 +74,7 @@ npm start
 ```bash
 cd ../ml
 pip install -r requirements.txt
-flask run
+python app.py
 ```
 
 ### 5. Jalankan Aplikasi
